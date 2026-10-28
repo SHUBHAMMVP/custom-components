@@ -1,5 +1,5 @@
 {
-  "name": "stencil-input",
+  "name": "sample-components",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
@@ -7,11 +7,11 @@
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/stencil-input/stencil-input.esm.js",
+  "unpkg": "dist/sample-components/sample-components.esm.js",
   "exports": {
     ".": {
-      "import": "./dist/stencil-input/stencil-input.esm.js",
-      "require": "./dist/stencil-input/stencil-input.cjs.js"
+      "import": "./dist/sample-components/sample-components.esm.js",
+      "require": "./dist/sample-components/sample-components.cjs.js"
     },
     "./my-component": {
       "import": "./dist/components/my-component.js",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stenciljs/component-starter.git"
+    "url": "https://github.com/SHUBHAMMVP/custom-components.git"
   },
   "files": [
     "dist/",
